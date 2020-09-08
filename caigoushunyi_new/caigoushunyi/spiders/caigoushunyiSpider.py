@@ -139,3 +139,5 @@ class CaigoushunyispiderSpider(scrapy.Spider):
         item['purchase_demand'] = purchase_demand
         item['zh_name'] = "北京市顺义区政府采购网招标公告"
         yield item
+
+
